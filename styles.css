@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+   text-decoration: none; 
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: cadetblue;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 10px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    margin: 60px;
+    font-family: sans-serif;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: 800;
+}
+.logo {
+    font-family: sans-serif;
+    color: cornsilk;
+    font-style: oblique;
+    font-weight: 800;
+    font-size: 25px;
+}
+.active {
+    font-weight: bold;
+    color: cyan;
+}
