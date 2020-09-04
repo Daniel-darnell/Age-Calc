@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background: url('./images/agecalcbackground.jpg');
+    color: honeydew;
 }
 nav {
     max-width: 960px;
@@ -34,4 +35,21 @@ h1 {
 }
 p {
     color: honeydew;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 26px;
+    padding: 30px;
+}
+.into {
+    width: 50%;
+    height: 380px;
+    background-color: gray;
+    background-image: url('./images/agecalcbackground.jpg');
+    background-size: cover;
+    text-align: center;
 }
