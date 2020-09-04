@@ -23,8 +23,15 @@ nav li a {
     display: block;
     color: honeydew;
 }
+nav ul li a:hover {
+    background: black;
+    color: honeydew;
+}
 h1 {
     text-align: center;
     font-size: 46px;
+    color: honeydew;
+}
+p {
     color: honeydew;
 }
