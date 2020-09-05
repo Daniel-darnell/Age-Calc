@@ -29,16 +29,67 @@
             </p>
         </div>
     </div><br><br><br><br>
-    
+
     <div class="trial">
         <div class="row">
             <h1>AKAN NAME-CREATOR</h1>
             <p>Akan Name-Creator works on the basis of the information keyed in of which they are your birth dates.<br>
             These birth dates are the Century digits, Year digits, Month, Day of the Month.
             <h2>UNEARTH YOUR AKAN NAME!</h2>
-            <h3>HOW TO</h3>
+            <h3 class="works">HOW TO</h3>
+            <ol>
+                <li>Input the date of birth</li>
+                <li>Input the month of birth</li>
+                <li>Input the year of birth</li>
+                <li>Choose Gender</li>
+                <li>Submit</li>
+            </ol>
             </p>
         </div>
+        <div class="generator">
+            <h2 class="welcome"><strong>MAGIC WELL</strong></h2>
+            <P class="welcome">Ready to Start? Fill in the fields required below</P>
+            <div id="form">
+                <form action="">
+                    <fieldset>
+                        <label for="">Enter Century of Birth;</label>
+                    <input type="number" placeholder="eg. 19 0r 20" id="century" required maxlength="2">
+                    <div>
+
+                    </div><br><br>
+                    <label for="">Enter Date of Birth;</label>
+                    <input type="number" placeholder="eg. 1-31" id="date" required maxlength="2">
+                    <div>
+
+                    </div><br><br>
+                    <label for="">Enter Month of Birth;</label>
+                    <input type="number" placeholder="eg. 1-12" id="month" required maxlength="2">
+                    <div>
+
+                    </div><br><br>
+                    <label for="">Enter Year of Birth</label>
+                    <input type="number" placeholder="eg. 2000" id="year" required maxlength="4">
+                    
+                    <div>
+                        <h3>Select Gender</h3>
+                    </div>
+                    <input type="radio" class="gender" value="male" id="gender" name="genders" required>Male;
+                    <input type="radio" class="gender" value="female" id="gender" name="genders" required>Female;
+
+                    </fieldset>
+                    <div class="submit">
+                        <a href="#Induce"><button type="button" name="button" class="button"
+                           onclick="output();">Induce</button></a>
+                           <button type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+            <div id="Induce">
+                <p></p>Induce;
+            </div>
+
+        </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
