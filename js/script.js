@@ -40,3 +40,27 @@ function calculateDay() {
 }
 console.log(calculateDay);
 
+
+
+//a function that checks the akan name of the day with the help of the above function
+function output() {
+    day = calculateDay();
+    checkGender();
+}
+
+
+let daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+let boysNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+let girlsNames = [ "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+
+//the function that checks the gender
+function checkGender() {
+    var gen = document.getElementsByName("genders");
+    if (gen[0].checked == true) {
+        var gender = "male";
+    }
+    else if (gen[1].checked == true) {
+        var gender = "female";
+    }
+}
