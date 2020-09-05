@@ -64,3 +64,59 @@ function checkGender() {
         var gender = "female";
     }
 }
+
+
+switch (gender) {
+    case gender = "male":
+        switch (day) {
+            case 0 || -0:
+                document.getElementById("generate").innerHTML = "Born on Sunday." + "" + "Your Akan name is" + boysNames[0];
+                break;
+            case 1 || -1:
+                document.getElementById("generate").innerHTML = "Born on Monday." + "" + "Your Akan Name is" + boysNames[1];
+                break;
+            case 2 || -2:
+                document.getElementById("generate").innerHTML = "Born on Tuesday." + "" + "Your Akan Name is" + boysNames[2];
+                break;
+            case 3 || -3:
+                document.getElementById("generate").innerHTML = "Born on Wednesday." + "" + "Your Akan Name is" + boysNames[3]
+                break;
+            case 4 || -4:
+                document.getElementById("generate").innerHTML = "Born on Thursday." + "" + "Your Akan Name is" + boysNames[4]
+                break;
+            case 5 || -5:
+                document.getElementById("generator").innerHTML = "Born on Friday." + "" + "Your AKan Name is" + boysNames[5]
+                break;
+            case 6 || -6:
+                document.getElementById("generate").innerHTML = "Born on Saturday." + "" + "Your Akan Name is" + boysNames [6]
+                break;
+            default:
+
+        }
+        break;
+        switch (day) {
+            case 0 || -0:
+                document.getElementById("generate").innerHTML = "Born on Sunday." + "" + "Your Akan name is" + girlsNames[0];
+                break;
+            case 1 || -1:
+                document.getElementById("generate").innerHTML = "Born on Monday." + "" + "Your Akan Name is" + girlsNames[1];
+                break;
+            case 2 || -2:
+                document.getElementById("generate").innerHTML = "Born on Tuesday." + "" + "Your Akan Name is" + girlsNames[2];
+                break;
+            case 3 || -3:
+                document.getElementById("generate").innerHTML = "Born on Wednesday." + "" + "Your Akan Name is" + girlsNames[3]
+                break;
+            case 4 || -4:
+                document.getElementById("generate").innerHTML = "Born on Thursday." + "" + "Your Akan Name is" + girlsNames[4]
+                break;
+            case 5 || -5:
+                document.getElementById("generator").innerHTML = "Born on Friday." + "" + "Your AKan Name is" + girlsNames[5]
+                break;
+            case 6 || -6:
+                document.getElementById("generate").innerHTML = "Born on Saturday." + "" + "Your Akan Name is" + girlsNames [6]
+                break;
+            default:
+                                       
+        }
+}
