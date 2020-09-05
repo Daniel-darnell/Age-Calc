@@ -94,6 +94,7 @@ switch (gender) {
 
         }
         break;
+    case gender = "female":    
         switch (day) {
             case 0 || -0:
                 document.getElementById("generate").innerHTML = "Born on Sunday." + "" + "Your Akan name is" + girlsNames[0];
