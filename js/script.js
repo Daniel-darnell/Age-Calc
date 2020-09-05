@@ -20,7 +20,23 @@ function getInput() {
 
     }
     else if (year < 1910 || year > 2020) {
-        alert{"Invalid Year Input"}
+        alert("Invalid Year Input")
     }
 
 }
+
+// function that gets the current year
+// function getYear() {
+//     var d = new Date();
+//     var n = d.getFullYear();
+//     document.getElementById("year").innerHTML = n ;   
+// }
+
+// function with the formula that calculates the days, month and Year 
+function calculateDay() {
+    getInput();
+    dayOfTheWeek = ((((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + dayOfTheMonth) % 7) - 1;
+    return (Math.floor(dayOfTheWeek));
+}
+console.log(calculateDay);
+
