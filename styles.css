@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.one {
+    height: 60vh;
+    background: url('./images/1200px-Flag_of_Ghana.svg.png');
+    color: honeydew;
+    background-position: center;
+    font-size: 25px;
+}
+nav {
+    list-style: none;
+}
+ul {
+    list-style: none;
+    float: right;
+    margin: 25px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: honeydew;
+    padding: 6px 20px;
+    border: 1px solid black;
+    background: black;
+}
+ul li a:hover {
+    background-color: grey;
+}
+
