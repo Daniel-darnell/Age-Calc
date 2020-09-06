@@ -34,9 +34,28 @@ ul li a:hover {
     margin: 10px 20px;
 }
 .two {
-    height: 30vh;
+    height: 40vh;
     background: cornsilk;
 }
 .trial {
     text-align: center;
+}
+.two .trial .row h1 {
+    padding: 15px;
+    font-size: 30px;
+}
+.two .trial .row p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.two .trial .row h2 {
+    padding: 10px;
+    font-size: 25px;
+}
+.two .trial .row h3 {
+    padding: 10px;
+    font-size: 25px;
+}
+ol {
+    font-size: 20px;
 }
