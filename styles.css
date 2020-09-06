@@ -30,4 +30,13 @@ ul li a {
 ul li a:hover {
     background-color: grey;
 }
-
+.content {
+    margin: 10px 20px;
+}
+.two {
+    height: 30vh;
+    background: cornsilk;
+}
+.trial {
+    text-align: center;
+}
