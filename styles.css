@@ -4,7 +4,7 @@
 }
 .one {
     height: 60vh;
-    background: url('./images/1200px-Flag_of_Ghana.svg.png');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/1200px-Flag_of_Ghana.svg.png');
     color: honeydew;
     background-position: center;
     font-size: 25px;
@@ -59,3 +59,14 @@ ul li a:hover {
 ol {
     font-size: 20px;
 }
+.three {
+    /* height: 40vh; */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/GhanianTribes.jpg');
+    color: honeydew;
+    text-align: center;
+}
+/* form {
+    padding: 10px;
+    width: 85px;
+    height: 50px;
+} */
