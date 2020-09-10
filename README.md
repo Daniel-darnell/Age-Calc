@@ -13,4 +13,4 @@ Daniel Darnell Wanina
 Age-Calc is an Akan Name Generator that induces AKan Names in accordance to the user's birth details they key.
 
 # LICENSE
-Copyright 2020 Daniel Darnell
+Copyright 2020 Daniel Darnell Wanina
